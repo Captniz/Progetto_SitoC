@@ -140,12 +140,30 @@ a {
   color: rgba(56, 61, 53, 1);
 }
 .Bleft {
-  float: left;
+  width: 10%;
+  border: solid;
+  background-color: rgba(233, 251, 203, 1);
+  border-radius: 15px;
+  padding: 1%;
+  margin-right: 10%;
+}
+.Bright {
+  width: 10%;
+  border: solid;
+  background-color: rgba(233, 251, 203, 1);
+  border-radius: 15px;
+  padding: 1%;
+  margin-left: 10%;
+}
+.Download {
   text-align: center;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  width: 10%;
+  border: solid;
+  background-color: rgba(233, 251, 203, 1);
+  border-radius: 15px;
+  padding: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .code {
   display: flex;
@@ -155,4 +173,14 @@ a {
 }
 object {
   height: inherit;
+}
+.dl-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-flow: space-evenly;
+  width: 100%;
+  margin-bottom: 2%;
+  text-align: center;
 }
