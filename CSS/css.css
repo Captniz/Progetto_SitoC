@@ -73,6 +73,7 @@ h1 {
   color: rgba(56, 61, 53, 1);
   font-size: larger;
   height: 75%;
+  gap: 1%;
 }
 
 .container-grid :hover {
@@ -93,6 +94,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 15px;
 }
 nav {
   width: 100%;
